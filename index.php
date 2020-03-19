@@ -21,9 +21,9 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
       
     </head> 
-    <body> <!-- credits: john paul maja :D <3 -->
+    <body>
       <div class="header">
-      <a href="index.php"><img src="images/logo.png" style="width:300px;height:200px;"></a>
+      <a href="index.php"></a>
       </div>
 
       <div class="navbar">
@@ -34,7 +34,7 @@ $navigation = (isset($_GET['navigation']) && $_GET['navigation'] != '') ? $_GET[
       </div>
 
 
-        <?php //google ------ credits: john paul maja :D <3
+        <?php
         if($login_button == ''){
           switch($navigation){
             case 'product':
